@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
-TOKEN = "7860769768:AAHQMnC9b544g4G3J59Nt5BjWaswJpseCZQ"  # Replace with your bot token from BotFather
+TOKEN = ""  # Replace with your bot token from BotFather
 
 # Command: /start
 async def start(update: Update, context: CallbackContext):
